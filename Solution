@@ -1,0 +1,15 @@
+-- We are looking for ​murder​ 
+-- that occurred sometime on ​Jan.15, 2018​ 
+-- and that took place in ​SQL City​
+
+-- Find the Murder:
+SELECT * 
+FROM crime_scene_report
+WHERE type='murder'
+AND date=20180115
+AND lower(city)='sql city';
+
+              
+-- 2 Witnesses
+-- 1st - lives at the last house on Northwestern Dr
+-- 2nd - Annabel, lives somewhere on Franklin Ave
